@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Club</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <!-- div for logo and title -->
+        <div class="logo">
+            <img src="./images/dumbel.png" alt="GYM Logo">
+            <div>Fitness Club</div>
+        </div>
+        <!-- div for navigation bar -->
+        <div class="navigation-bar">
+            <ul class="nav-bar">
+                <li><a class="active" href="./index.html">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- div for search bar -->
+        <div class="search-bar">
+            <input type="text" name="search" placeholder="Search">
+            <button class="btn">Search</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Join the best GYM of Hindmotor Now!</h1>
+        <form action="backend.php">
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Height">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Weight">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Email">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Phone Number">
+            </div>
+        </form>
+        <button type="submit">Submit</button>
+    </div>
+</body>
+</html>
